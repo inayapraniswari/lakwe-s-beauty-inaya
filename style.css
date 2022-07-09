@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    background-image: url("img/gambar.png");
+}
+
+.navbar {
+    background-color: #C4C4C4;
+}
+
+.navbar-nav {
+    margin-right: 96px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.navbar-brand {
+    margin-left: 121.5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar .judulBrand {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+
+/* Info1 */
+.cardG {
+    transition: transform .5s ease;
+}
+
+.cardG:hover {
+    transform: scale(1.1);
+}
+
+.info1 {
+    margin-top: 72px;
+    margin-bottom: 100px;
+}
+
+.info1 img {
+    margin-left: 150px;
+}
+
+.info1 .judul1 {
+    font-family: 'Inter';
+    line-height: 100px;
+    margin-top: 50px;
+}
+
+.info1 h1 {
+    font-size: 40px;
+    margin-right: 20px;
+    font-weight: 700;
+}
+
+.tombol1 {
+    width: 255px;
+    height: 55px;
+    border: 3px solid #000000 !important;
+    border-radius: 0px 20px 20px 0px !important;
+}
+
+.info1 a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+/* Judul2 */
+.judul2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    margin-bottom: 20px;
+}
+
+.produk p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    color: #000000;
+}
+
+.judul2 h2 {
+    color: #000;
+    position: relative;
+    text-decoration: none;
+}
+
+.judul2 h2::before {
+    /* background: hsl(45 100% 70%); */
+    border-bottom: 5px solid #FCBB34;
+    width: 20%;
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+    z-index: -1;
+}
+
+.judul2 h2:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+
+/* judul3 */
+.popularpro {
+    margin-top: 90px;
+}
+
+.judul3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    margin-bottom: 20px;
+}
+
+.popularpro h2 {
+    color: #000;
+    position: relative;
+    text-decoration: none;
+}
+
+.popularpro h2::before {
+    /* background: hsl(45 100% 70%); */
+    border-bottom: 5px solid #FCBB34;
+    width: 20%;
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+    z-index: -1;
+}
+
+.popularpro h2:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/* info2 */
+.gambarJ {
+    transition: transform .5s ease;
+}
+
+.gambarJ:hover {
+    transform: scale(1.1);
+}
+
+.info2 {
+    margin-top: 100px;
+}
+
+.info2 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.info2 p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+.tombol2 {
+    width: 283px;
+    height: 68px;
+
+    border-radius: 15px !important;
+    font-weight: 400;
+    font-size: 29px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tombol2:hover {
+    transition: 0.3s ease-in-out;
+    background-color: white !important;
+    color: black !important;
+    border: 5px dashed #000000 !important;
+}
+
+/* Info3 */
+.footerakhir {
+    background-color: #C4C4C4;
+    height: 270px;
+}
+
+.info3 {
+    margin-top: 50px;
+}
+
+.info3 h4 {
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.alamat {
+    margin-top: 50px;
+    text-align: right;
+}
+
+.alamat p {
+    margin-top: 20px;
+    line-height: 5px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Copyright */
+.copyright {
+    background-color: #A71A88;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+    font-weight: 100;
+}
+
+.copyright span {
+    color: #FF00E5;
+}
+
+
+/* responsive layout */
+
+@media (min-width: 992px) {
+    .footerakhir {
+        margin-top: 10px;
+    }
+
+    .nav-link::after {
+        content: '';
+        display: block;
+        border-bottom: 5px dotted #2C3639;
+        margin: auto;
+        width: 0;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        transition: width 0.3s;
+    }
+
+    .nav-link:hover::after {
+        width: 50%;
+    }
+
+
+    .card a:hover {
+        color: white !important;
+        text-decoration: none;
+    }
+
+    .card {
+        transition: transform .5s ease;
+    }
+
+    .card:hover {
+        transform: scale(1.1);
+    }
+
+    .card a::after {
+        content: '';
+        display: block;
+        border-bottom: 5px dotted white;
+        margin: auto;
+        width: 0;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        transition: width 0.3s;
+    }
+
+    .card a:hover::after {
+        width: 20%;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    /* Produk */
+    .produk .card {
+        margin-bottom: 20px;
+    }
+
+
+    /* Popular produk */
+    .popularpro .card {
+        margin-bottom: 20px;
+    }
+
+    /* info3 */
+    .info3 {
+        text-align: center;
+    }
+
+    .footerakhir {
+        height: 400px;
+    }
+
+    .alamat {
+        text-align: center;
+    }
+}

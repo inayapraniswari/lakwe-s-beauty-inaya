@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    background-image: url("img/gambar.png");
+}
+
+.navbar {
+    background-color: #C4C4C4;
+}
+
+.navbar-nav {
+    margin-right: 96px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.navbar-brand {
+    margin-left: 121.5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar .judulBrand {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+/* Min Menu */
+.minMenu {
+    margin-top: 20px;
+}
+
+.minMenu h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+}
+
+/* Description */
+.tombol1 {
+    width: 210px;
+    height: 48px;
+    border: 2px solid #000000 !important;
+    border-radius: 15px !important;
+    margin-top: 20px;
+    margin-left: 37px;
+}
+
+.dc1 {
+    margin-top: 80px;
+    margin-bottom: 50px; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    color: #000000;
+}
+
+.dc2 {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    color: #000000;
+}
+
+.dc3 {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    color: #000000;
+}
+
+.dc4 {
+    margin-top: 80px;
+    margin-bottom: 150px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    color: #000000;
+}
+
+/* gambar1 */
+.gambar1 {
+    margin-top: 20px;
+    width: 286px;
+    height: 340px;
+}
+
+.gambar1 img {
+    width: 280px;
+    height: 248px;
+}
+
+/* description1 */
+.description1 {
+    width: 794px;
+    background: #C4C4C4;
+    border: 3px dashed #000000;
+    margin-left: 25px;
+}
+
+.description1 li {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 5px;
+}
+
+/* gambar2 */
+.gambar2 {
+    margin-top: 20px;
+    width: 286px;
+    height: 340px;
+}
+
+.gambar2 img {
+    width: 286px;
+    height: 248px;
+}
+
+/* description2 */
+.description2 {
+    width: 794px;
+    background: #C4C4C4;
+    border: 3px dashed #000000;
+    margin-left: 25px;
+}
+
+.description2 li {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 5px;
+}
+
+
+/* gambar3 */
+.gambar3 {
+    width: 286px;
+    height: 340px;
+}
+
+.gambar3 img {
+    width: 280px;
+    height: 248px;
+}
+
+/* description3 */
+.description3 {
+    width: 794px;
+    background: #C4C4C4;
+    border: 3px dashed #000000;
+    margin-left: 25px;
+}
+
+.description3 li {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 5px;
+}
+
+
+
+/* gambar4 */
+.gambar4 {
+    width: 286px;
+    height: 340px;
+}
+
+.gambar4 img {
+    width: 280px;
+    height: 248px;
+}
+
+/* description4 */
+.description4 {
+    width: 794px;
+    background: #C4C4C4;
+    border: 3px dashed #000000;
+    margin-left: 25px;
+    padding: 5px;
+}
+
+.description4 li {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+/* info2 */
+.gambarJ {
+    transition: transform .5s ease;
+}
+
+.gambarJ:hover {
+    transform: scale(1.1);
+}
+
+.info2 {
+    margin-top: 100px;
+}
+
+.info2 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.info2 p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+.tombol2 {
+    width: 283px;
+    height: 68px;
+
+    border-radius: 15px !important;
+    font-weight: 400;
+    font-size: 29px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tombol2:hover {
+    transition: 0.3s ease-in-out;
+    background-color: white !important;
+    color: black !important;
+    border: 5px dashed #000000 !important;
+}
+
+
+/* Info3 */
+.footerakhir {
+    background-color: #C4C4C4;
+    height: 270px;
+}
+
+.info3 {
+    margin-top: 50px;
+}
+
+.info3 h4 {
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.alamat {
+    margin-top: 50px;
+    text-align: right;
+}
+
+.alamat p {
+    margin-top: 20px;
+    line-height: 5px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Copyright */
+.copyright {
+    background-color: #A71A88;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+    font-weight: 100;
+}
+
+.copyright span {
+    color: #FF00E5;
+}
+
+
+
+@media (min-width: 992px) {
+    .footerakhir {
+        margin-top: 10px;
+    }
+
+    /* navlink animation */
+    .nav-link::after {
+        content: '';
+        display: block;
+        border-bottom: 5px dotted #2C3639;
+        margin: auto;
+        width: 0;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        transition: width 0.3s;
+    }
+
+    .nav-link:hover::after {
+        width: 50%;
+    }
+
+    .card {
+        transition: transform .5s ease;
+    }
+
+    .card:hover {
+        transform: scale(1.1);
+    }
+
+}

@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+html {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url("img/gambar.png");
+}
+
+.navpayment {
+    background-color: #C4C4C4;
+}
+
+.navpayment a {
+    margin-left: 15px;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    display: block;
+    text-align: center;
+    color: black;
+}
+
+.navpayment a:hover {
+    color: black;
+}
+
+
+/* Progress payment */
+
+:root {
+    --line-border-fill: none;
+    --line-border-empty: #e0e0e0;
+}
+
+.container {
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+.progress-container::before {
+    content: "";
+    background: var(--line-border-empty);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 100%;
+    z-index: -1;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 30px;
+    max-width: 100%;
+    width: 350px;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.progress {
+    background: var(--line-border-fill);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 0%;
+    z-index: -1;
+    transition: 0.4s ease;
+}
+
+.circle {
+    background: #E5E5E5;
+    color: #C4C4C4;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid var(--line-border-empty);
+    transition: .4s ease;
+}
+
+.circle.active {
+    border-color: var(--line-border-fill);
+}
+
+.btn {
+    background-color: var(--line-border-fill);
+    color: black;
+    cursor: pointer;
+    font-family: inherit;
+    border: 0;
+    border-radius: 6px;
+    padding: 8px 30px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.btn:disabled {
+    background-color: var(--line-border-empty);
+    cursor: not-allowed;
+}
+
+
+/* Judul1 */
+.judul1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.judul1 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 55px;
+}
+
+.pesan {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.pesan p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 29px;
+    text-align: center;
+}
+
+/* PilihanUser */
+.tombol1 {
+    width: 210px;
+    height: 48px;
+    border: 2px solid #000000 !important;
+    border-radius: 15px !important;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 29px;
+}
+
+
+
+/* Info3 */
+.footerakhir {
+    background-color: #C4C4C4;
+    height: 270px;
+}
+
+.info3 {
+    margin-top: 50px;
+}
+
+.info3 h4 {
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.alamat {
+    margin-top: 50px;
+    text-align: right;
+}
+
+.alamat p {
+    margin-top: 20px;
+    line-height: 5px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Copyright */
+.copyright {
+    background-color: #A71A88;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+    font-weight: 100;
+}
+
+.copyright span {
+    color: #FF00E5;
+}
